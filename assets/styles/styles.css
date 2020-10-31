@@ -1,0 +1,34 @@
+body {
+  background-color: #000;
+  font-family: "VT323", monospace;
+  color: white;
+  padding: 2em;
+  display: flex;
+}
+
+div {
+  border: 2px solid white;
+  width: 100%;
+  border-right-color: black;
+  padding: 1em;
+}
+
+a {
+  color: white;
+}
+
+#score {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  text-align: right;
+  height: 20px;
+  border: 2px solid white;
+}
+
+canvas {
+  border: 2px solid white;
+}
