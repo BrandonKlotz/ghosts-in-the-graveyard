@@ -4,13 +4,19 @@ body {
   color: white;
   padding: 2em;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div {
   border: 2px solid white;
   width: 100%;
   border-right-color: black;
-  padding: 1em;
+  max-height: 600px;
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 200px;
+  height: 600px;
 }
 
 a {
@@ -31,4 +37,5 @@ a {
 
 canvas {
   border: 2px solid white;
+  max-height: 600px;
 }
